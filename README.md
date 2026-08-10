@@ -1,7 +1,7 @@
 # International Policy and Gender-Based Violence: The Istanbul Convention in Europe
 
 Asmae Nakib
-Cinstructor University
+Constructor University
 
 ## 1. Project overview
 
