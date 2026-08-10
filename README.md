@@ -1,6 +1,7 @@
 # International Policy and Gender-Based Violence: The Istanbul Convention in Europe
 
 Asmae Nakib
+
 Constructor University
 
 ## Project overview
@@ -132,7 +133,3 @@ reported numbers reproduce. Package versions actually used are recorded in
 `outputs/diagnostics/software_manifest.csv`; `csdid` 0.2.9 supplies the
 Callaway–Sant'Anna estimator, and `pyfixest` and `linearmodels` are not
 required.
-
-```bash
-pdflatex thesis_draft_v8.tex   # run three times: contents, lists, float barriers
-```
