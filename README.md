@@ -109,9 +109,12 @@ each outcome may support, and is written before any estimate is produced.
 
 01_data_design_diagnostics.ipynb — Data and Design Diagnostics
 Checks panel coverage, treatment timing, comparison groups, pre-trends, power, and method feasibility, then defines which estimators are suitable for each outcome.
+
 02_main_analysis.ipynb — Main Analysis
 Runs the main causal estimates using TWFE, stacked DiD, Callaway–Sant'Anna, event studies, and complementary inference and sensitivity checks.
+
 03_case_studies_mechanisms.ipynb — Case Studies and Mechanisms
 Examines Turkey’s withdrawal, synthetic-control case studies, reporting-related outcomes, and institutional mechanisms.
+
 04_robustness_appendix.ipynb — Robustness Appendix
 Tests the sensitivity of the main findings to alternative treatment definitions, samples, outcome transformations, weighting, and influential-country exclusions.
