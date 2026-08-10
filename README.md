@@ -105,31 +105,13 @@ each outcome may support, and is written before any estimate is produced.
 
 ---
 
-## Reproducibility
+## Python Scripts
 
-```bash
-pip install -r requirements.txt      # Python 3.13.3
-
-python src/make_treatment_dates.py   # data/treatment_dates_verified.csv
-python src/build_analysis_panel.py   # data/gbv_panel_analysis.csv
-
-# then, in order:
-jupyter lab notebooks/01_data_design_diagnostics.ipynb
-jupyter lab notebooks/02_main_analysis.ipynb
-jupyter lab notebooks/03_case_studies_mechanisms.ipynb
-jupyter lab notebooks/04_robustness_appendix.ipynb
-
-python viz/make_thesis_figures.py    # regenerates every file in Figures/
-python build_tex.py                  # regenerates thesis_draft_v8.tex
-```
-
-The notebooks must run in order: `01` writes the sample inventory and the
-outcome-method permissions that `02`–`04` read. Every estimation step is seeded
-(`20260804`, recorded in `outputs/diagnostics/runtime.txt`), so the bootstrap
-and permutation p-values reproduce exactly.
-
-All four notebooks were re-run end to end against this repository state and the
-reported numbers reproduce. Package versions actually used are recorded in
-`outputs/diagnostics/software_manifest.csv`; `csdid` 0.2.9 supplies the
-Callaway–Sant'Anna estimator, and `pyfixest` and `linearmodels` are not
-required.
+01_data_design_diagnostics.ipynb — Data and Design Diagnostics
+Checks panel coverage, treatment timing, comparison groups, pre-trends, power, and method feasibility, then defines which estimators are suitable for each outcome.
+02_main_analysis.ipynb — Main Analysis
+Runs the main causal estimates using TWFE, stacked DiD, Callaway–Sant'Anna, event studies, and complementary inference and sensitivity checks.
+03_case_studies_mechanisms.ipynb — Case Studies and Mechanisms
+Examines Turkey’s withdrawal, synthetic-control case studies, reporting-related outcomes, and institutional mechanisms.
+04_robustness_appendix.ipynb — Robustness Appendix
+Tests the sensitivity of the main findings to alternative treatment definitions, samples, outcome transformations, weighting, and influential-country exclusions.
