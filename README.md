@@ -1,10 +1,7 @@
 # International Policy and Gender-Based Violence: The Istanbul Convention in Europe
 
-Replication repository for the Master thesis of the same name.
-
 **Author** Asmae Nakib · **Degree** Master Thesis · **School** School of
 Business, Social & Decision Sciences, Constructor University ·
-**Supervisor** Prof. Dr. Mandi Larsen · **Second Reader** Prof. Dr. Fabian Dehos
 
 ---
 
