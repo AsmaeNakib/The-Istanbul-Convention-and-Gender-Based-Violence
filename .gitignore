@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Source files already harmonised into data/interim/base_country_year_panel.csv,
+# and two third-party reports. Listed in README section 3.2 with download links
+# rather than re-hosted here. Only the two raw files the code opens are tracked.
+data/raw/*
+!data/raw/data_cts_intentional_homicide.xlsx
+!data/raw/WBL2024 Safety data_Website.xlsx
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex.gz
