@@ -35,8 +35,8 @@ evidence of no effect.
 
 ## Data
 
-The analysis runs on three files, all included here: `data/gbv_panel_analysis.csv`
-(the panel every notebook reads), `data/treatment_dates.csv` and
+The analysis runs on three files, all included here: `gbv_panel_analysis.csv`
+(the panel every notebook reads), `treatment_dates.csv` and
 `variable_sources.csv`.
 
 ### Files included in this repository
