@@ -42,18 +42,18 @@ always carry identical substantive content. Edit the Markdown, then run
 
 The analysis runs on three files, all included here: `data/gbv_panel_analysis.csv`
 (the panel every notebook reads), `data/treatment_dates.csv` and
-`data/variable_sources.csv`.
+`variable_sources.csv`.
 
 ### Files included in this repository
 
 | File | Read by | Used for |
 | --- | --- | --- |
-| `data/gbv_panel_analysis.csv` | all four notebooks | every estimate in the thesis |
-| `data/treatment_dates.csv` | `build_analysis_panel.py`, `make_thesis_figures.py` | signature, ratification, entry-into-force and withdrawal dates |
-| `data/variable_sources.csv` | notebook `01` | source and construction of every built variable |
-| `data/interim/base_country_year_panel.csv` | `build_analysis_panel.py` | merged country-year frame the panel build starts from |
-| `data/raw/data_cts_intentional_homicide.xlsx` | `build_analysis_panel.py` | female and male homicide rates, intimate-partner/family homicide, and the United Kingdom rebuild |
-| `data/raw/WBL2024 Safety data_Website.xlsx` | consulted directly | the domestic-violence legal criterion described in Section 5.7.1 |
+| `gbv_panel_analysis.csv` | all four notebooks | every estimate in the thesis |
+| `treatment_dates.csv` | `build_analysis_panel.py`, `make_thesis_figures.py` | signature, ratification, entry-into-force and withdrawal dates |
+| `variable_sources.csv` | notebook `01` | source and construction of every built variable |
+| `base_country_year_panel.csv` | `build_analysis_panel.py` | merged country-year frame the panel build starts from |
+| `data_cts_intentional_homicide.xlsx` | `build_analysis_panel.py` | female and male homicide rates, intimate-partner/family homicide, and the United Kingdom rebuild |
+| `WBL2024 Safety data_Website.xlsx` | consulted directly | the domestic-violence legal criterion described in Section 5.7.1 |
 
 `data_cts_intentional_homicide.xlsx` is the only raw file any script opens.
 
