@@ -31,11 +31,6 @@ effect is large relative to the effects the literature would predict. The
 manuscript reports this as a limit on what the data can establish, not as
 evidence of no effect.
 
-**Manuscript files.** `thesis text final.md` is the source of the thesis text.
-`thesis text final.tex` is generated from it by `build_thesis.py`, so the two
-always carry identical substantive content. Edit the Markdown, then run
-`python build_thesis.py`.
-
 ---
 
 ## Data
